@@ -44,3 +44,8 @@ pip install -r requirements.txt
 
 # Inicie o servidor da API
 uvicorn src.api:app --host 0.0.0.0 --port 8000 --reload
+
+### 3. Uso da API
+Com o servidor rodando, acesse a documentação interativa para testar os endpoints:
+
+* Swagger UI: http://localhost:8000/docs
